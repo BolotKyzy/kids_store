@@ -18,8 +18,29 @@ const Header = () => {
                 </div>
                 <a href="#">Контакты</a>
                 <div className="header__icons">
-                    <div>
-                        Search
+                    <div className="button button--search">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="18"
+                            height="18" viewBox="0 0 20 20"
+                            fill="none"
+                            stroke="white"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="6">
+                            </circle>
+                            <line
+                                x1="20"
+                                y1="20"
+                                x2="16.6"
+                                y2="16.6">
+                            </line>
+                        </svg>
                     </div>
                     <NavLink to={"/cart"}>
 

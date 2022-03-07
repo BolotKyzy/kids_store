@@ -8,11 +8,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+  &__icons {
+    display: flex;
+  }
 
      .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
     }
 }
 
